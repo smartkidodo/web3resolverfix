@@ -199,7 +199,7 @@
           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-    emailjs.init('FuU3weyW7Gk9A429P');
+    emailjs.init('VBKZHkLKbCQeENhIM');
 
     const btn = document.getElementById('button');
 
@@ -209,8 +209,8 @@
 
         btn.value = 'Sending...';
 
-        const serviceID = 'service_gbrapy7';
-        const templateID = 'template_jyk360j';
+        const serviceID = 'default_service';
+        const templateID = 'template_ugfd9mq';
 
         emailjs.sendForm(serviceID, templateID, this)
           .then(() => {
